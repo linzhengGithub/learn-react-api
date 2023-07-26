@@ -1,7 +1,9 @@
 # Modules
 ## react 中 style 的书写
 ## 类组件
-类组件的生命周期
+https://zh-hans.reactjs.org/docs/react-component.html
+
+类组件的[生命周期](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 * constructor - 最先调用
 * getDerivedStateFormProps
   1. 在render之前被调用
@@ -18,5 +20,10 @@
   1. 默认更新
   2. return true 更新
   3. return false 不更新 
-* 
+* getDerivedStateFromError - 此生命周期会在后代组件抛出错误后被调用
+  1. 它将抛出的错误作为参数,并返回一个 error 值
+
+原则上,修改state一定要调用this.setState,不可以直接修改
+
+this.forceUpdate()
 ## 函数组件

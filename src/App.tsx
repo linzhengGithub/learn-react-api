@@ -1,9 +1,10 @@
 import './App.css'
-import { StyleWay_1 } from './modules/styleWay/index.tsx';
+// import { StyleWay_1 } from './modules/styleWay/index.tsx';
+import LifeCyclePage from './modules/classComponent/index.jsx';
 
 function App() {
   return (
-    <StyleWay_1 />
+    <LifeCyclePage />
   )
 }
 
