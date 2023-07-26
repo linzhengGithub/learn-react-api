@@ -18,5 +18,6 @@
   1. 默认更新
   2. return true 更新
   3. return false 不更新 
-* 
+* getDerivedStateFromError - 此生命周期会在后代组件抛出错误后被调用
+  1. 它将抛出的错误作为参数,并返回一个 error 值
 ## 函数组件
