@@ -27,3 +27,12 @@ https://zh-hans.reactjs.org/docs/react-component.html
 
 this.forceUpdate()
 ## 函数组件
+https://zh-hans.reactjs.org/docs/hooks-reference.html
+
+* useState
+* useEffect
+* useLayoutEffect
+* useContext
+* useCallback - 缓存的是函数
+* useMemo - 缓存的是变量
+* useRef
